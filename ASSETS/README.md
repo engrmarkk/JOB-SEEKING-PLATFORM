@@ -1,1 +1,1 @@
-This the Directory to store HTML files
+This the Directory to store Images and other Resources used
