@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav bar</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src="../JAVASCRIPT/login.js" defer></script>
+    <script src="https://kit.fontawesome.com/3bba84e146.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- the navigation header -->
+    <nav>
+        <header>
+            <div class="logo">
+                <img src="../ASSETS/logoo.png" alt="Logo" class="imgLogo">
+            </div>
+            <div class="navigation">
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <!-- <div class="dropdown1">
+                        <li class="dropD1"><a href="#">Content</a></li>
+                        <div class="dropCon1">
+                            <a href="">Front-end</a>
+                            <a href="">Back-end</a>
+                            <a href="">Cloud</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li class="dropD"><a href="#">Services</a></li>
+                        <div class="dropCon">
+                            <a href="">HTML</a>
+                            <a href="">CSS</a>
+                            <a href="">JavaScript</a>
+                        </div>
+                    </div> -->
+
+                    <div class="dropdown">
+                        <li class="dropD"><a href="#">Applicants</a></li>
+                        <div class="dropCon">
+                            <a href="">Get a Job</a>
+                            <a href="">Notification Services</a>
+                            <a href="">Resume Services</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <li class="dropD"><a href="#">Recruiters</a></li>
+                        <div class="dropCon">
+                            <a href="">Post a Job</a>
+                            <a href="">Notification Services</a>
+
+                        </div>
+                    </div>
+
+                    <li><a href="../HTML/login.html">Login</a></li>
+
+                </ul>
+
+            </div>
+        </header>
+    </nav>
+
+    <!-- Login -->
+
+    <div class="reg-page">
+        <div class="in-reg">
+            <div class="for-login">
+                <h4>Login</h4>
+                <form action="">
+                    <div class="username">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg>
+                        <input type="email" required name="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="pass-w">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-lock-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                        </svg>
+                        <input type="password" required name="password" placeholder="Password" id="password">
+                    </div>
+                    <p class="forg"><a href="">Forgot password?</a></p>
+                    <input type="submit" value="Login">
+                </form>
+                <p class="reg-link">Don't have an account ? <button class="reg-click">Register</button></p>
+            </div>
+            <!-- for registration -->
+            <div class="for-reg">
+
+                <h4>Register</h4>
+
+                <div class="tog-reg">
+                    <div class="tog-con">
+                        <p class="rec">Recruiter</p>
+                        <p class="app">Applicant</p>
+                    </div>
+                </div>
+                <div class="all-form">
+                    <form action="">
+                        <div class="first-form">
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                                <input type="name" required name="name" placeholder="Full Name" id="email">
+                            </div>
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg>
+                                <input type="email" required name="email" placeholder="Email" id="email">
+                            </div>
+                            <div class="pass-w2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                </svg>
+                                <input type="password" required name="password" placeholder="Password" id="password">
+                            </div>
+                            <div class="pass-w">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                </svg>
+                                <input type="password" required name="password" placeholder="Confirm Password"
+                                    id="password">
+                            </div>
+                            <input type="submit" value="Register">
+                        </div>
+                    </form>
+                    <!-- for Recriters -->
+                    <form class=".form" action="">
+                        <div class="second-form">
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                                <input type="name" required name="name" placeholder="Full Name" id="email">
+                            </div>
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg>
+                                <input type="email" required name="email" placeholder="Email" id="email">
+                            </div>
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-building" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                                    <path
+                                        d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                                </svg>
+                                <input type="text" name="company" id="" placeholder="Company's Name">
+                            </div>
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                                <input type="text" name="location" id="location" placeholder="Company's Address">
+                            </div>
+                            <div class="sel">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" />
+                                </svg>
+                                <select name="choice">
+                                    <option value="placeholder" disabled selected>Position in the Company</option>
+                                    <option value="first">CEO</option>
+                                    <option value="second">HR</option>
+                                    <option value="third">MANAGER</option>
+                                    <option value="third">OUTSOURCING AGENT</option>
+                                </select>
+                            </div>
+                            <div class="sel">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-badge-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z" />
+                                </svg>
+                                <select name="choice">
+                                    <option value="placeholder" selected disabled>Number of Employees</option>
+                                    <option value="first">0-50</option>
+                                    <option value="second">51-100</option>
+                                    <option value="third">100-150</option>
+                                    <option value="third">150+</option>
+                                </select>
+                            </div>
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-r-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.5 4.002V12h1.335V8.924H8.52L9.98 12h1.52L9.856 8.701c.828-.299 1.495-1.101 1.495-2.238 0-1.488-1.03-2.461-2.74-2.461H5.5Zm1.335 1.09v2.777h1.549c.995 0 1.573-.463 1.573-1.36 0-.913-.596-1.417-1.537-1.417H6.835Z" />
+                                </svg>
+                                <input type="number" name="RegNumber" id="" placeholder="Company's Registration Number">
+                            </div>
+                            <div class="username2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                <input type="tel" name="phoneNumber" placeholder="Phone Number" id="">
+                            </div>
+                            <div class="pass-w2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                </svg>
+                                <input type="password" required name="password" placeholder="Password" id="password">
+                            </div>
+                            <div class="pass-w">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                </svg>
+                                <input type="password" required name="password" placeholder="Confirm Password"
+                                    id="password">
+                            </div>
+                            <input type="submit" value="Register">
+                    </form>
+                </div>
+            </div>
+            <!-- ........................ -->
+            <p class="reg-link">Have an account ? <button class="log-click">Login</button></p>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <div class="foot1">
+            <div class="col-1">
+                <h3>USEFUL LINK</h3>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Team</a>
+            </div>
+
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" class="flora" placeholder="Your Email Adress" required>
+                    <br>
+                    <button type="Submit" class="flora2">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="foot2">
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <p>P. O Box 90, Ebenezer Street <br> Hohoe, Ghana</p>
+                <div class="Social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <h3>Help</h3>
+                <a href="#">Support</a>
+                <a href="#">Troubleshooting</a>
+                <a href="#">Issues</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
