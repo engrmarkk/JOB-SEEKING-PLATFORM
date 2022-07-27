@@ -5,15 +5,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat" !important;
 }
-body {
-  font-family: "Montserrat";
-}
+
 .container {
   background-color: #4d7d94;
   color: #fff;
   text-align: center;
   padding: 50px;
+  margin-top: 50px;
 }
 .container h1 {
   font-weight: 700;
@@ -41,7 +41,7 @@ body {
   font-size: 22px;
   margin-bottom: 8px;
 }
-.icons {
+.icons  {
   width: 100px;
   background-color: #a0c9db;
   padding: 22px;
@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 450px;
+  top: 550px;
   margin: 0 70px;
 }
 .hiw h1,
@@ -131,9 +131,11 @@ body {
   font-weight: normal;
 }
 .text_color {
-  color: #4d7d94;
-  font-weight: 700;
+  color: #4d7d94 !important;
+  font-weight: 700 !important;
+  font-size: inherit !important;
   line-height: 2.5em;
+  background-color: inherit;
 }
 .booked {
   text-align: center;
